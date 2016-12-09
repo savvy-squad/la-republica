@@ -2,3 +2,81 @@
 *{
     outline: 1px solid red;
 }
+/*--------SECTION HEADER--------*/
+  /*--------header-dos------*/
+.header-dos{
+    margin: 0;
+    padding: 8px 0 0 0;
+    
+}
+header .top{
+    width: 100%;
+}
+header button .boletin{
+    border-radius: 5px;
+    background-color: rgb(230, 128, 115);
+    color: white;
+    border: 1px; 
+    width: 35%;
+}
+header button span{
+    font-size: 10px;
+}
+header .azul{
+    color: mediumblue;
+}
+header .celeste{
+    color: deepskyblue;
+}
+header .rojo{
+    color: rgb(230, 128, 115);
+}
+header .amarillo{
+    color: orange;
+}
+header .naranja{
+    color: darkorange;
+}
+header i{
+    padding: 0 6px;
+}
+header input{
+    position: absolute;
+    width: 125px;
+    padding: 
+}
+.buscar{
+    position: relative;
+    left: 25%;
+}
+
+  /*-------------header la-republica-----*/
+.logo-republica{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

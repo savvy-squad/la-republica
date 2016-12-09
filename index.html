@@ -3,51 +3,57 @@
 <head>
   <meta charset="UTF-8">
   <title>La Répública - Home</title>
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/font-awesome.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/slick-theme.css">
   <script src="js/jquery.js" type="text/javascript"></script>
   <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+  <script src="js/jquery-3.1.1.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/common.css">
   <link rel="stylesheet" href="css/home.css">
 </head>
 <body>
      <header>
          <div class="container">
              <div class="row">
-                 <img src="image/banner_top.jpg" class="img-responsive" alt="banner-top">
-                 <div class="col-md-6">
+                 <img src="image/banner_top.jpg" class="img-responsive top" alt="banner-top">
+                 <div class="row header-dos">
+                     <div class="col-md-9">
                      <ul class="list-inline">
                          <li><a href=""></a>LIBERO.PE</li>
-                         <li><a href=""></a>LIBERO.PE</li>
-                         <li><a href=""></a>LIBERO.PE</li>
+                         <li><a href=""></a>ELPOPULAR.PE</li>
+                         <li><a href=""></a>FUNDACIÒN GUSTAVO MOHHME LLONA.PE</li>
                      </ul>
                  </div>
-                 <div class="col-md-6">
+                 <div class="col-md-7">
                      <div class="">
-                         <button>SUSCRÌBETE AL BOLETÌN</button>
-                         <i class="fa fa-facebook"></i>
-                         <i class="fa fa-twitter"></i>
-                         <i class="fa fa-google"></i>
-                         <i class="fa fa-mesages"></i>
-                         <i class="fa fa-wifi"></i>
+                         <button class="boletin"><span>SUSCRÌBETE AL BOLETÌN</span></button>
+                         <i class="fa fa-facebook azul redes"></i>
+                         <i class="fa fa-twitter celeste redes"></i>
+                         <i class="fa fa-google-plus rojo redes"></i>
+                         <i class="fa fa-envelope amarillo redes"></i>
+                         <i class="fa fa-rss naranja redes"></i>
                          <input type="text" name="search" placeholder="BUSCAR">
-                         <span class="fa fa-search"></span>
+                         <span class="fa fa-search buscar"></span>
                      </div>
                  </div>
+                 </div>
             </div>
-                 <!---------la-republica------>
+                 <!---------header la-republica------>
                  <div class="row logo-republica">
-                     <div class="col-md-4">
+                     <div class="col-md-5">
                          <img src="image/logo-la-republica.jpg" class="img-responsive" alt="logo republica">
                      </div>
-                     <div class="col-md-4 domingo">
+                     <div class="col-md-5 domingo">
                          <span>DOMINGO</span>
                          <div>
                              HABLA LA LIDERESA DEL NACIONALISMO
                          </div>
                      </div>
-                     <div class="col-md-4">
+                     <div class="col-md-6 gustavo">
                         <img src="image/img_editorial_text.jpg" alt="">
                         <div>
                             <h4>La corrupcìon, los origenes</h4>
@@ -59,7 +65,7 @@
                  <!--------menu-principal----->
                  <div class="row">
                      <nav class="navbar ">
-                  <div class="container">
+                  <div class="">
                <!-- icon hamburguesa -->
                       <div class="navbar-header">
                          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu" aria-expanded="false">
@@ -95,7 +101,7 @@
                     <h3>TEMAS DEL DÌA</h3>
                 </div>
                 <div class="col-md-10">
-                    <ul>
+                    <ul class="list-inline">
                         <li><a href="">blobos de oro</a></li>
                         <li><a href="">blobos de oro</a></li>
                         <li><a href="">blobos de oro</a></li>
@@ -106,43 +112,29 @@
                         <li><a href="">blobos de oro</a></li>
                     </ul>
                     
-                    <div id="carrusel">
-    <a href="#" class="izquierda_flecha"><img src="images/flecha_01.png" /></a>
-    <a href="#" class="derecha_flecha"><img src="images/flecha_02.png" /></a>
-    <div class="carrusel">
-        <div class="product" id="product_0">
-            <img class="img_carrusel" src="gallery/01.jpg" width="195px" height="100px" />
-            <p>Titulo 1</p>
-            <p>165.00 €</p>
-        </div>
-        <div class="product" id="product_1">
-             <img class="img_carrusel" src="gallery/02.jpg" width="195px" height="100px" />
-            <p>Titulo 2</p>
-              <p>100.00 €</p>
-        </div>
-        <div class="product" id="product_2">
-            <img class="img_carrusel" src="gallery/03.jpg" width="195px" height="100px" />
-            <p>Titulo 3</p>
-            <p>250.00 €</p>
-        </div>
-        <div class="product" id="product_3">
-            <img class="img_carrusel" src="gallery/01.jpg" width="195px" height="100px" />
-            <p>Titulo 4</p>
-            <p>75.00 €</p>
-        </div>
-        <div class="product" id="product_4">
-            <img class="img_carrusel" src="gallery/02.jpg" width="195px" height="100px" />
-            <p>Titulo 5</p>
-            <p>65.00 €</p>
-        </div>
-        <div class="product" id="product_5">
-            <img class="img_carrusel" src="gallery/03.jpg" width="195px" height="100px" />
-            <p>Titulo 6</p>
-            <p>40.00 €</p>
-        </div>
-    </div>
-</div>
+                    <div class="your-class">
+                            <div>your content</div>
+                            <div>your content</div>
+                            <div>your content</div>
+                          </div>
+
+                          <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+                          <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+                          <script type="text/javascript" src="slick/slick.min.js"></script>
+
+                          <script type="text/javascript">
+                            $('.autoplay').slick({
+                                  slidesToShow: 3,
+                                  slidesToScroll: 1,
+                                  autoplay: true,
+                                  autoplaySpeed: 2000,
+                                });
+                          </script>
                 </div>
+            </div>
+            <!--------banner-header------>
+            <div class="row">
+                <img src="image/banner-header.jpg" class="top" alt="">
             </div>
          </div>
      </header>
