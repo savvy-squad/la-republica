@@ -1,1 +1,16 @@
-/* Inserta tu código común entre todas las páginas acá */
+.autor-ctn{
+    outline: 1px solid #dbd9d9;
+    padding: 3%;
+    margin: 5% 0;
+}
+.autor-tema{
+    background: #e3e2e2;
+    padding: 5% 0;
+    margin: 1%;
+    }
+.autor-tema img{
+    margin: 1%;
+}
+.gris{
+    color: #a38f8f;
+}
