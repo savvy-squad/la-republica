@@ -1,1 +1,18 @@
-/* Inserta tu código de la página home/index acá */
+/*--------------------ULTIMAS NOTICIAS----*/
+*{
+	outline: 1px red solid
+}
+.last-news .col-md-10 ul{
+	list-style: none;
+	padding: 0
+}
+.last-news .col-md-10 li{
+	display: block;
+}
+.last-news .col-md-4 img{
+	width: 100%
+}
+
+
+
+
