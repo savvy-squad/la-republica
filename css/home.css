@@ -1,60 +1,62 @@
 /*--------------------COLUMNISTAS---------*/
-
-.columnistas .container{
-	padding: 0;
+.fondo{
+    background: #F2F2F2;
+    margin-top: 40px;
 }
-
-.columnistas .colum-text{
-	padding: 30px 0;
+.cols{
+    margin: 0;
 }
-
 .columnistas .fondo{
-	background: #F2F2F2;
+    border-top: 5px solid #AA1801;
 }
-
 .columnistas .separador{
-	border-top: 3px solid #AA1801;
+    position: relative;
+    margin-bottom: 30px;
 }
-
-.columnistas .sep-columnistas h3{
-	bottom: 10px;
+.columnistas img{
+	border: 4px solid #fff;
+}
+.columnistas .separador h3{
 	width: 200px;
-	text-align: center;
-	margin-top: -15px;
-	margin-left: 40%;
-	padding: 5px 0;
+    position: absolute;
 	background: #AA1801;
-	color: white;
-	font-family: oswald;
+	color: #fff;
+    padding: 5px;
+    top: -35px;
+    margin-left:40%; 
 }
-
-.columnistas a{
-	color: white;
+.colum-text ul{
+  list-style: none;
+    padding: 0;
 }
-
-.columnistas .lista{
-	width: 100%;
-	height: 120%;
-}
-
-.columnistas .lista li{
+.colum-text ul li{
+    padding: 0;
+    display: inline-block;
 	vertical-align: top;
+    width: 115px;
+    padding-right: 3px;
 }
-
-.columnistas .lista img{
-	border: 4px solid white;
+.separador a{
+    font-family: "Oswald";
 }
-
+.columnistas a{
+	color: #fff;
+}
 .columnistas .texto{
-	width: 100px;
+    color: #000;
 }
-
-.columnistas .texto p{
-	color: black;
-}
-
 .columnistas .negrita{
-	font-weight: bolder;
-	color: black;
+	color: #000;
+    font-weight: bold;
 }
+@media screen and (max-width:760px){
+    .columnistas {margin:0 20px;}
+}
+@media screen and (max-width:460px){
+    .columnistas .separador h3{margin-left:25%}
+}
+@media screen and (max-width:360px){
+    .columnistas .separador h3{margin-left:15%}
+}
+
 
