@@ -1,1 +1,28 @@
-/* Inserta tu código de la página contacto acá */
+*{outline: 1px solid #ea43ea}
+.datos input, .mensaje textarea{
+    margin-top: 5%;
+    background: rgb(244, 244, 244);
+    box-shadow: -1px -1px 0 0;
+}
+.dest-in-ctn{
+    margin-top: 2%;
+    }
+.destino span{
+    float: right;
+}
+.mensaje{
+    margin: 5% 0;
+}
+.mensaje button{
+    background: #000;
+    color: #FFF;
+    padding: 1% 10%;
+    margin: 3% auto;
+}
+
+@media screen and (max-width: 700px){
+    .destino span{
+    float: none;
+}
+}
+
