@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 .autor-ctn{
     outline: 1px solid #dbd9d9;
     padding: 3%;
@@ -15,7 +15,7 @@
 .gris{
     color: #a38f8f;
 }
-=======
+
 /* Inserta tu código común entre todas las páginas acá */
 *{
     outline: 1px solid red;
@@ -72,6 +72,27 @@ header input{
 .logo-republica{
 
 }
+/*-----------------ICONOS-----------------*/
+.icon{
+    width: 20px;
+    background: #f2f2f2;
+    text-shadow: none;
+    text-align: center;
+    border-radius: 3px;
+}
+.icon:hover{
+    color: black
+}
+.fb{box-shadow: 0px 4px #3b5998;
+    border-radius: 3px;}
+.fb .icon{color: #3b5998;}
+.tw{box-shadow: 0px 4px #33ccff;
+    border-radius: 3px;}
+.tw .icon{color: #33ccff;}
+.gb{box-shadow: 0px 4px #dc4a38;
+    border-radius: 3px;}
+.gb .icon{color: #dc4a38;}
+/*-------------------------------------*/
 
 
 
@@ -99,3 +120,26 @@ header input{
 
 
 >>>>>>> 7ad4daffa0dad021204915e1bf3aca9ddcb20307
+=======
+/*-----------------ICONOS-----------------*/
+.icon{
+    width: 20px;
+    background: #f2f2f2;
+    text-shadow: none;
+    text-align: center;
+    border-radius: 3px;
+}
+.icon:hover{
+    color: rgba(0,0,0,0.5);
+}
+.fb{box-shadow: 0px 4px #3b5998;
+    border-radius: 3px;}
+.fb a{color: #3b5998;}
+.tw{box-shadow: 0px 4px #33ccff;
+    border-radius: 3px;}
+.tw a{color: #33ccff;}
+.gb{box-shadow: 0px 4px #dc4a38;
+    border-radius: 3px;}
+.gb a{color: #dc4a38;}
+/*-------------------------------------*/
+>>>>>>> noticias-principales
