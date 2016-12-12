@@ -2,14 +2,23 @@
 /*--------------------ULTIMAS NOTICIAS----*/
 
 .last-news  ul{
+
 	list-style: none;
-	padding: 0
+	padding:0;
 }
-.last-news li{
-	display: block;
-}
+
+
 .last-news .redes{
 	display: inline-block;
+}
+
+.last-news .principal{
+	border-bottom: 1px solid red;
+	padding-top: 15px;
+	padding-bottom: 20px
+}
+.last-news .principal h3{
+	margin-top: 0
 }
 
 .last-news .col-md-6 img{
