@@ -1,22 +1,32 @@
 
 /*--------------------ULTIMAS NOTICIAS----*/
 
-.last-news .col-md-10 ul{
+.last-news  ul{
 	list-style: none;
 	padding: 0
 }
-.last-news .col-md-10 li{
+.last-news li{
 	display: block;
 }
-
+.last-news .redes{
+	display: inline-block;
+}
 
 .last-news .col-md-6 img{
 width: 100%
 }
 .last-news .img-sus{
-	width: 60px
+	width: 60px;
+	margin-left: 38%;
 }
-
+.last-news .bloque{
+	margin-top: 50px
+}
+.last-news .suscribirse{
+	margin-bottom: 20px;
+	background:url(image/bullet.gif);
+	background-size: contain;
+}
 
 
 *{
