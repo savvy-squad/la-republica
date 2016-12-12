@@ -1,9 +1,21 @@
 /*--------------------COLUMNISTAS---------*/
 
-.columnistas{
-	background: 
+.fondo{
+	background: #F2F2F2;
 }
 
+.lista{
+	width: 100%;
+	height: 120%;
+}
+
+.lista li{
+	vertical-align: top;
+}
+
+.texto{
+	width: 100px;
+}
 
 /*--------------------ULTIMAS NOTICIAS----*/
 
