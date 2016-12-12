@@ -10,10 +10,6 @@
     display: inline-block;
    }
 
-.list-sec li {
-    list-style: none;
-}
-
 .sec-titulo a{
     color: #FFF;
     display: block;
