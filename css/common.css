@@ -17,10 +17,14 @@
 }
 
 /* Inserta tu código común entre todas las páginas acá */
+<<<<<<< HEAD
 *{
     outline: 1px solid r;
     font-family: neue helvetica;
 }
+=======
+
+>>>>>>> noticias-secundarias
 /*--------SECTION HEADER--------*/
 .fondo-color{
     background-color: rgb(235, 235, 235);
