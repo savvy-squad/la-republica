@@ -33,9 +33,11 @@ button{
     margin: 1%;
     width: 200px;
     border-radius: 5px;
+    text-decoration: none;
 }
 button a{
     color: #fff;
+    
 }
 /*----section2---------*/
 

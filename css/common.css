@@ -18,19 +18,30 @@
 
 /* Inserta tu código común entre todas las páginas acá */
 *{
-    outline: 1px solid red;
+    outline: 1px solid r;
+    font-family: neue helvetica;
 }
 /*--------SECTION HEADER--------*/
+.fondo-color{
+    background-color: rgb(235, 235, 235);
+}
   /*--------header-dos------*/
 .header-dos{
     margin: 0;
     padding: 8px 0 0 0;
-    
+    box-sizing: border-box;
+}
+.header-dos ul li{
+    font-size: 12px;
+}
+.col-md-9, .col-md-7{
+    padding-left: 0;
+    padding-right: 0;
 }
 header .top{
     width: 100%;
 }
-header button .boletin{
+header button.boletin{
     border-radius: 5px;
     background-color: rgb(230, 128, 115);
     color: white;
@@ -40,28 +51,30 @@ header button .boletin{
 header button span{
     font-size: 10px;
 }
-header .azul{
+ .azul{
     color: mediumblue;
 }
-header .celeste{
+ .celeste{
     color: deepskyblue;
 }
-header .rojo{
+ .rojo{
     color: rgb(230, 128, 115);
 }
-header .amarillo{
+ .amarillo{
     color: orange;
 }
-header .naranja{
+ .naranja{
     color: darkorange;
 }
-header i{
+header .redes{
     padding: 0 6px;
 }
 header input{
     position: absolute;
-    width: 125px;
-    padding: 
+    width: 30%;
+    background: rgb(235, 235, 235);
+    border-top: none;
+    padding: 0 5px ;
 }
 .buscar{
     position: relative;
@@ -70,7 +83,54 @@ header input{
 
   /*-------------header la-republica-----*/
 .logo-republica{
-
+    margin: 20px 0;
+    padding: 0;
+}
+.logo-republica .logo{
+    margin: 25px 0;
+}
+.logo-republica .domingo{
+    border: 2px solid rgb(235, 235, 235);
+    border-bottom: 3px solid #a00101;
+    padding: 14px;
+    text-align: center;
+}
+.domingo strong{
+    font-size: 13px;
+}
+.domingo span{
+    background-color: #a00101;
+    color: white;
+    padding: 5px;
+    position: relative;
+    bottom: 18px;
+}
+.author{
+    border: 2px solid rgb(235, 235, 235);
+    box-sizing: border-box;
+    line-height: 10px;
+    width: 100%;
+    height: 73px;
+    background: black;
+}
+.uno{
+    display: inline-block;
+    padding: 0;
+}
+.uno p{
+    padding: 5px 27px;
+    line-height: 18px;
+    position: relative;
+    height: 69px;
+    left: 15px;
+    background: white;
+    bottom: 1px;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+}
+.author img{
+    position: relative;
+    left: 11px;
 }
 /*-----------------ICONOS-----------------*/
 .icon{
@@ -98,11 +158,154 @@ header input{
 
 
 
+/*----------menu-principal*/
+header .menu-principal{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    background: rgb(212, 2, 2);
+    border-radius: 6px;
+}
+.menu_bar{
+    display: none;
+}
 
+header .menu-principal .menu-lista{
+    overflow: hidden;
+    margin: 0;
+}
+header .menu-principal .menu-lista li{
+    float: left;
+    border-left: 1px solid darkgray;
+}
+header .menu-principal .menu-lista li a{
+    color: white;
+    padding: 6px;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 11px;
+}
+header .menu-principal .menu-lista li:hover{
+    background: rgb(57, 87, 188);
+}
 
+   /*.........temas del dia.........*/
+.menu2{
+    margin: 20px 0;
+}
+.temas-dia{
+    background: black;
+    color: white;
+    font-size: 13px;
+    border-top-left-radius: 9px;
+    border-bottom-left-radius: 9px;
+    padding: 10px;
+}
+.menu2 .menu-temas{
+    background-color: rgb(235, 235, 235);
+    padding-top: 8px;
+}
+.menu-temas ul li a{
+    color: black;
+    text-decoration: none;
+    box-sizing: border-box;
+    padding: 0 10px; 
+}
 
+/*-----------SECTION FOOTER---------*/
+footer{
+    background-color: rgb(235, 235, 235);
+}
+footer ul{
+    list-style: none;
+}
+footer ul li a{
+    color: black;
+}
+footer .direccion{
+    margin: 10% 0;
+}
+/*------RESPONSIVE--------*/
+@media screen and (max-width: 320px){
+    .menu-iconos input{
+        width: 25%;
+    }
+    .menu-iconos .buscar{
+        left: 20%;
+    }
+    header button.boletin {
+    width: 42%;
+    }
+    button.boletin span{
+        font-size: 9px;
+    }
+    header .redes{
+        padding: 0 3px;
+    }
+    .header-dos ul li {
+    font-size: 8px;
+   }
+    
+}
+@media screen and (max-width: 360px){
+    .menu-iconos input{
+        width: 10%;
+    }
+    .menu-iconos .buscar{
+        left: 5%;
+    }
+    header button.boletin{
+    width: 40%;
+    }
+    .header-dos ul li{
+    font-size: 10px;
+    }
+}
+  /* menu header*/
+@media screen and (max-width:375px){
+    .menu-iconos input{
+        width: 20%;
+    }
+    .menu-iconos .buscar{
+        left: 18%;
+    }
+    header button.boletin{
+    width: 37.3%;
+}
+}
 
-
+   /*menu principal*/
+@media screen and (max-width:800px){
+    header .menu-principal{
+        width: 80%;
+        height: 60%;
+        left: -100%;
+        margin: 0;
+        position: fixed;
+        z-index: 2000;
+    }
+    header .menu-principal .menu-lista li{
+        display: block;
+        float: none;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.27)
+    }
+    .menu_bar{
+        display: block;
+        width: 100%;
+        background: rgb(212, 2, 2);
+    }
+    .menu_bar .btn-menu{
+        display: block;
+        padding: 20px;
+    }
+    .menu_bar .hamburguesa{
+        float: right;
+        font-size: 28px;
+        color: white;
+    }
+    
+}
 
 
 
@@ -133,12 +336,17 @@ header input{
 }
 .fb{box-shadow: 0px 4px #3b5998;
     border-radius: 3px;}
-.fb a{color: #3b5998;}
+.fb .icon{color: #3b5998;}
 .tw{box-shadow: 0px 4px #33ccff;
     border-radius: 3px;}
-.tw a{color: #33ccff;}
+.tw .icon{color: #33ccff;}
 .gb{box-shadow: 0px 4px #dc4a38;
     border-radius: 3px;}
+<<<<<<< HEAD
 .gb a{color: #dc4a38;}
 /*-------------------------------------*/
 
+=======
+.gb .icon{color: #dc4a38;}
+/*-------------------------------------*/
+>>>>>>> noticias-principales
