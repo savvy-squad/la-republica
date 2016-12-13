@@ -6,154 +6,11 @@
 }
 
 
-/* NOTICIA-PRINCIPAL */
-.noticias-p h1{font-size: 45px;}
-.noticias-p img{min-width: 100%;}
-.titulo{padding-bottom: 20px;}
-.pie li{display: inline-block}
-.til1, .til2, .til3{position: relative;}
-.punto{font-size: 10px;padding: 0 10px;}
-.shadow{
-    color: #fff;
-    text-shadow: 1px 2px #000;
-    width: 100%;
-    padding:10px;
-    position:absolute;
-    bottom: 0px;
-    background: linear-gradient(to bottom,transparent 0,rgba(0,0,0,0.6) 60%);
-    background-image: linear-gradient(transparent 0px, rgba(0,0,0,0.6) 60%);
-    background-size: initial;
-    background-attachment: initial;
-    background-origin: initial;
-    background-clip: initial;
-    background-color: initial;
-}
-.shadow a{
-    text-decoration:none;
-    color: #fff;
-}
-.til2{margin-bottom: 20px;}
-.time1{color:#727171;}
-.noticias-p{
-    margin-bottom: 20px
-}
-
-
-
-/*--------------------COLUMNISTAS---------*/
-
-.columnistas .container{
-    padding: 0;
-}
-
-.columnistas .colum-text{
-    padding: 30px 0;
-}
-
-.columnistas .fondo{
-    background: #F2F2F2;
-}
-
-.columnistas .separador{
-    border-top: 3px solid #AA1801;
-}
-
-.columnistas .sep-columnistas h3{
-    bottom: 10px;
-    width: 200px;
-    text-align: center;
-    margin-top: -15px;
-    margin-left: 40%;
-    padding: 5px 0;
-    background: #AA1801;
-    color: white;
-    font-family: oswald;
-}
-
-.columnistas a{
-    color: white;
-}
-
-.columnistas .lista{
-    width: 100%;
-    height: 120%;
-}
-
-.columnistas .lista li{
-    vertical-align: top;
-}
-
-.columnistas .lista img{
-    border: 4px solid white;
-}
-
-.columnistas .texto{
-    width: 100px;
-}
-
-.columnistas .texto p{
-    color: black;
-}
-
-.columnistas .negrita{
-    font-weight: bolder;
-    color: black;
-}
-
-/* ----------NOTICIAS SECUNDARIAS-------------------- */
-
-
-.sec-news .list-sec{
-    padding: 0;
-    margin: 0;
-   }
-.sec-ctn{
-    border: 1px solid #dedddd;
-    margin: 2% 0;
-    width: 100%;
-}
-.sec-titulo a{
-    color: #FFF;
-    display: block;
-    text-align: left;
-    }
-.list-sec p{
-    padding: 2% 0;
-
-}
-.sec-img{
-        position: relative;
-        min-width: 100%;   
-}
-.sec-titulo{
-    position: absolute;
-    padding: 1% 3% 0 0;
-    bottom: 15%;
-}
-
-.sec-news .opaco{
-    background: black;
-    z-index: 1
-}
-
-.img-fondo{
-    background: #000000;
-}
-.sec-img{
-        position: relative;
-        opacity: 0.7;
-        min-width: 100%; 
-}
-.sec-titulo{
-    position: absolute;
-    padding: 1% 3%;
-    bottom: 15%;
-}
 
 
 
 /*--------------------ULTIMAS NOTICIAS----*/
-.last-news h4{
+.last-news h4.encabezado{
     font-family:  'Oswald', sans-serif;
     color: #768596
 }
@@ -162,7 +19,10 @@
 
 
 }
-.last-news h6{color: #768596}
+.last-news h6{
+    color: #768596;
+    margin-top:25px 
+}
 .last-news h3{
     font-family: helvetica;
     font-size: 18px;
@@ -207,10 +67,7 @@ width: 100%
     background:#F2F2F2;
     
 }
-.last-news ul{
-    list-style: none;
-    padding:0;
-}
+
 
 
 .last-news .redes{
@@ -218,8 +75,8 @@ width: 100%
 }
 
 .last-news .principal{
-    padding-bottom: 30px;
-    border-bottom: 1px solid #F8F8F8
+    padding-bottom: 20px;
+    border-bottom: 1px solid #D8D8D8
 }
 .last-news .principal h3{
     margin-top: 0
@@ -227,17 +84,26 @@ width: 100%
 .last-news .principal ul{
     margin-top: 10px
 }
+.last-news .principal .ul-margen{
+    margin-top: 35px
+}
 .last-news .col-md-11 button{
     width: 200px;
     margin-left: 35%
 }
+.punto{
+    font-size: 7px;
+    padding: 0 10px;
+}
+
 .last-news .suscribirse{
     background: url(../image/subtlenet2.png);
-    padding: 45px 5px 5px 5px
+    padding: 40px 5px 5px 5px;
+     margin-bottom: 20px;
 }
 .last-news .bloque{
-    background: white;;
-    padding-top:35px 
+    background: white;
+    padding-top:40px 
 
 }
 .last-news .sus{ color: black}
@@ -250,7 +116,7 @@ width: 100%
 .last-news .aweita{
     margin-top: 30px;
     padding-bottom:0; 
-    border: 1px solid #F2F2F2
+    border: 1px solid #D8D8D8
 }
 .last-news .img-aw{
     width: 120px;
@@ -268,11 +134,12 @@ width: 100%
     padding-top:10px ;
     width: 120px;
     padding-bottom: 10px;
-    margin-left: 30%
+    margin-left: 30%;
+    margin-bottom: 0
 }
 .last-news .division{
     border-top: 4px solid #6C91A4 ;
-    margin: 15px 0
+    margin: 32px 0
 }
 .last-news .fotos-desta .row{
     margin-top: 15px
@@ -281,7 +148,7 @@ width: 100%
     background: #6C91A4;
     
     padding: 5px 0;
-    width: 150px;
+    width: 160px;
     margin-left: 25%;
     margin-top: -10px
 }   
@@ -292,38 +159,14 @@ width: 100%
 .last-news .titulo-fot-des a{
     text-decoration: none;
     color: white;
-
+    font-family:  'Oswald', sans-serif;
     width: 60px;
-    margin-left: 38%;
-}
-.last-news .bloque{
-    margin-top: 50px
-}
-.last-news .suscribirse{
-    margin-bottom: 20px;
-    background:url(image/bullet.gif);
-    background-size: contain;
-
+    ;
 }
 
 
 
-/*-------MEDIA-QUERIES---------------*/
-@media screen and (max-width:941px){
-    .til1{margin-bottom: 20px;}
-    .banner-sec{    display: none;}
-}
-@media screen and (max-width:645px){
-    .noticias-p h1{font-size: 30px;}
-    .noticias-p h2{font-size: 25px}
-    .noticias-p h3{font-size: 15px}
-    .last-news .bloque-de{margin: 20px 0 }
-}
-@media screen and (max-width:360px){
-    .noticias-p h1{font-size: 25px;}
-    .noticias-p h2{font-size: 20px}
-    .punto{padding: 4px;}
-}
+
 
 
 
