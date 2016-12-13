@@ -1,0 +1,22 @@
+h1{
+	font-weight: bolder;
+}
+
+.foto img{
+	width: 100%;
+}
+
+h6{
+	font-weight: bolder;
+
+}
+
+.image img{
+	border: 4px solid white;
+	padding: 5px;
+	background: #FFF;
+}
+
+.image p{
+	text-align: center;
+}
