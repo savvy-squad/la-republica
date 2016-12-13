@@ -38,7 +38,13 @@ width: 100%
     background:#F2F2F2;
     
 }
-
+.last-news .principal{
+    padding-bottom: 30px;
+    border-bottom: 1px  #F2F2F2
+}
+.last-news .principal h3{
+    margin-top: 0
+}
 .last-news .suscribirse{
     background: url(../image/subtlenet2.png);
     padding: 45px 5px 5px 5px
@@ -89,7 +95,7 @@ width: 100%
     margin-top: -10px
 }   
 *{
-    outline: 1px solid rgba(0,255,0,0.3);
+    outline: 1px solid white
 }
 
 
