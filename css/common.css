@@ -182,8 +182,9 @@ footer ul{
     padding: 0 0 0 2%;
 }
 footer ul li a{
-    color: #454141;
+    color: #504a4a;
     font-size: 12px;
+    font-family: helvetica;
 }
 footer .direccion{
     margin: 10% 0;
