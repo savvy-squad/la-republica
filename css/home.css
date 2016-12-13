@@ -186,16 +186,13 @@ width: 100%
 
 
 
-
-
-
-
-
-
-=======
 /*--------------------COLUMNISTAS---------*/
 .columnistas .container{
 	padding: 0;
+}
+
+.columnistas .colum-text{
+	padding: 30px 0;
 }
 
 .columnistas .fondo{
@@ -214,6 +211,10 @@ width: 100%
 	margin-left: 40%;
 	padding: 5px 0;
 	background: #AA1801;
+	color: white;
+}
+
+.columnistas a{
 	color: white;
 }
 
@@ -241,6 +242,7 @@ width: 100%
 .columnistas .negrita{
 	font-weight: bolder;
 	color: black;
+	vertical-align: middle;
 }
->>>>>>> columnistas
+
 
