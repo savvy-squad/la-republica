@@ -1,4 +1,5 @@
 /*--------------------COLUMNISTAS---------*/
+
 .columnistas .container{
 	padding: 0;
 }
@@ -24,6 +25,7 @@
 	padding: 5px 0;
 	background: #AA1801;
 	color: white;
+	font-family: oswald;
 }
 
 .columnistas a{
@@ -54,6 +56,5 @@
 .columnistas .negrita{
 	font-weight: bolder;
 	color: black;
-	vertical-align: middle;
 }
 

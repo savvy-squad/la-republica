@@ -1,3 +1,6 @@
+*{
+	outline: 1px solid red;
+}
 h1{
 	font-weight: bolder;
 }
@@ -12,9 +15,7 @@ h6{
 }
 
 .image img{
-	border: 4px solid white;
-	padding: 5px;
-	background: #FFF;
+	border: 5px solid #BDBDBD;
 }
 
 .image p{
