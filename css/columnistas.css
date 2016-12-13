@@ -1,5 +1,9 @@
 /* Inserta tu código de la página columnistas acá */
-
+.pagina-columnistas{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/*---------sectiones--------*/
 .autor-ctn{
     border: 1px solid #c1c1c1;
     padding: 3%;
