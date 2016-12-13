@@ -1,157 +1,39 @@
+/* ----------NOTICIAS SECUNDARIAS-------------------- */
 
 
-/*--------------------ULTIMAS NOTICIAS----*/
-.last-news h4{
-    font-family:  'Oswald', sans-serif;
-    color: #768596
+.sec-news .list-sec{
+    padding: 0;
+    margin: 0;
+   }
+.sec-ctn{
+    border: 1px solid #dedddd;
+    margin: 2% 0;
+    width: 100%;
 }
-.last-news h4 img{
-    width: 12px;
-
-
-}
-.last-news h6{color: #768596}
-.last-news h3{
-    font-family: helvetica;
-    font-size: 18px;
-    font-weight: bolder;
-    margin: 0 0 10px;
-    line-height: 1.3;
-    letter-spacing: -.06em;
-}
-.last-news a{
-    color: black
-}
-.last-news ul{
-    list-style: none;
-    padding: 0
-}
-.last-news img{
-width: 100%
-}
-.last-news .img-sus{
-	width: 60px
-}
-.last-news .mensaje{
-	margin-right: 5px
-}
-.last-news .play{
-	color: #dc4a38
-}
-.last-news button{
-    background-color: #C42828;
-    border: #C42828;
-    color: white;
-    margin: 10px 0;
-    margin-bottom: 20px;
-
-}
-.last-news input,button{
-    width: 80%;
-    padding: 5px
-}
-.last-news input{
-    border-radius: 5px;
-    background:#F2F2F2;
-    
-
-.last-news ul{
-	list-style: none;
-	padding:0;
-}
-
-
-.last-news .redes{
-	display: inline-block;
-}
-
-.last-news .principal{
-    padding-bottom: 30px;
-    border-bottom: 1px solid #F8F8F8
-}
-.last-news .principal h3{
-    margin-top: 0
-}
-.last-news .principal ul{
-    margin-top: 10px
-}
-.last-news .col-md-11 button{
-    width: 200px;
-    margin-left: 35%
-}
-.last-news .suscribirse{
-    background: url(../image/subtlenet2.png);
-    padding: 45px 5px 5px 5px
-}
-.last-news .bloque{
-    background: white;;
-    padding-top:35px 
-
-}
-.last-news .sus{ color: black}
-.last-news .img-sus{
-
-    position: absolute;
-    top:1%;
-    left: 40%
-}
-.last-news .aweita{
-    margin-top: 30px;
-    padding-bottom:0; 
-    border: 1px solid #F2F2F2
-}
-.last-news .img-aw{
-    width: 120px;
-    margin-left:80px ;
-    padding-top: 10px
-}
-.last-news .ocio1{
-    margin: 15px 10px
-}
-.last-news span{
-    color: #8904B1;
+.sec-titulo a{
+    color: #FFF;
+    display: block;
+    text-align: left;
     }
-.last-news .aweita .link-aw{
-    border-bottom: 4px solid #8904B1;
-    padding-top:10px ;
-    width: 120px;
-    padding-bottom: 10px;
-    margin-left: 30%
+.list-sec p{
+    padding: 2% 0;
 }
-.last-news .division{
-    border-top: 4px solid #6C91A4 ;
-    margin: 15px 0
+.img-fondo{
+    background: #000000;
 }
-.last-news .fotos-desta .row{
-    margin-top: 15px
+.sec-img{
+        position: relative;
+        opacity: 0.7;
+        min-width: 100%; 
 }
-.last-news .titulo-fot-des{
-    background: #6C91A4;
-    
-    padding: 5px 0;
-    width: 150px;
-    margin-left: 25%;
-    margin-top: -10px
-}   
-.last-news .text-cr7{
-    line-height: 1.5em;
-    margin-top: 10px
+.sec-titulo{
+    position: absolute;
+    padding: 1% 3%;
+    bottom: 15%;
 }
-.last-news .titulo-fot-des a{
-    text-decoration: none;
-    color: white;
 
-	width: 60px;
-	margin-left: 38%;
-}
-.last-news .bloque{
-	margin-top: 50px
-}
-.last-news .suscribirse{
-	margin-bottom: 20px;
-	background:url(image/bullet.gif);
-	background-size: contain;
 
-}
+
+
 
 
