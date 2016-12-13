@@ -1,6 +1,14 @@
 /* Inserta tu código de la página columnistas acá */
-
-
+.pagina h2{
+    font-family: Arial;
+    font-weight: bolder
+}
+.pagina h5,.menu-1 h5{
+    font-family:  'Oswald', sans-serif !important; 
+}
+.container{
+    margin-bottom: 20px
+}
 .pagina-columnistas{
     margin-top: 20px;
     margin-bottom: 20px;
@@ -29,20 +37,25 @@
      color: #9b8d8d;
 }
 button{
-    background: #d90c0c;
+    background: #d90c0c !important;
     color: #fff;
     padding:6px;
     margin: 1%;
     width: 200px;
     border-radius: 5px;
     text-decoration: none;
+    
 }
 button a{
     color: #fff;
     
 }
 /*----section2---------*/
-
+.todos{
+    padding: 5px;
+    background: #992F2F;
+    border-radius: 15px
+}
 .menu{
     background: #d90c0c;
     padding: 11px;
