@@ -8,6 +8,7 @@
 .last-news h4 img{
     width: 12px;
 
+
 }
 .last-news h6{color: #768596}
 .last-news h3{
@@ -53,7 +54,17 @@ width: 100%
     border-radius: 5px;
     background:#F2F2F2;
     
+
+.last-news ul{
+	list-style: none;
+	padding:0;
 }
+
+
+.last-news .redes{
+	display: inline-block;
+}
+
 .last-news .principal{
     padding-bottom: 30px;
     border-bottom: 1px solid #F8F8F8
@@ -79,6 +90,7 @@ width: 100%
 }
 .last-news .sus{ color: black}
 .last-news .img-sus{
+
     position: absolute;
     top:1%;
     left: 40%
@@ -127,8 +139,19 @@ width: 100%
 }
 .last-news .titulo-fot-des a{
     text-decoration: none;
-    color: white
-}
+    color: white;
 
+	width: 60px;
+	margin-left: 38%;
+}
+.last-news .bloque{
+	margin-top: 50px
+}
+.last-news .suscribirse{
+	margin-bottom: 20px;
+	background:url(image/bullet.gif);
+	background-size: contain;
+
+}
 
 
