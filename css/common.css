@@ -15,7 +15,9 @@
 .gris{
     color: #a38f8f;
 }
-
+strong{
+    font-family: 'Oswald', sans-serif 
+}
 /* Inserta tu código común entre todas las páginas acá */
 
 *{
