@@ -78,7 +78,7 @@ header input{
     text-align: center;
 }
 .domingo strong{
-    font-size: 13px;
+    font-size: 11px;
 }
 .domingo span{
     background-color: #a00101;
@@ -88,31 +88,27 @@ header input{
     bottom: 18px;
 }
 .author{
-    border: 2px solid rgb(235, 235, 235);
-    box-sizing: border-box;
-    line-height: 10px;
-    width: 100%;
-    height: 73px;
-    background: black;
-}
-.uno{
-    display: inline-block;
+    border-top: 2px solid rgb(235, 235, 235);
+    border-bottom: 2px solid rgb(235, 235, 235);
+    border-left: 2px solid rgb(235, 235, 235);
+    background-color: black;
     padding: 0;
-}
-.uno p{
-    padding: 5px 27px;
-    line-height: 18px;
-    position: relative;
-    height: 69px;
-    left: 15px;
-    background: white;
-    bottom: 1px;
-    border-bottom-left-radius: 8px;
-    border-top-left-radius: 8px;
+    margin: 0;
 }
 .author img{
-    position: relative;
-    left: 11px;
+    margin: 10px auto;
+}
+.author .color{
+    background: white;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+    height: 70px;
+}
+.author .color .texto p{
+    margin: 15px auto;
+}
+.author .dos{
+    display: inline-block;
 }
 
 
@@ -123,7 +119,6 @@ header .menu-principal{
     max-width: 1000px;
     margin: 0 auto;
     background: rgb(212, 2, 2);
-    border-radius: 6px;
 }
 .menu_bar{
     display: none;
@@ -133,6 +128,7 @@ header .menu-principal .menu-lista{
     overflow: hidden;
     margin: 0;
 }
+
 header .menu-principal .menu-lista li{
     float: left;
     border-left: 1px solid darkgray;
@@ -185,6 +181,22 @@ footer ul li a{
 footer .direccion{
     margin: 10% 0;
 }
+.border{
+    border-left: 2px solid rgb(191, 196, 199);
+}
+footer .margen{
+    margin: 20px 0;
+}
+  /*--------footer-2-----------*/
+.footer-2{
+    background: black;
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+.footer-2 p{
+    font-size: 20px;
+}
 /*------RESPONSIVE--------*/
 @media screen and (max-width: 320px){
     .menu-iconos input{
@@ -231,23 +243,24 @@ footer .direccion{
     }
     header button.boletin{
     width: 37.3%;
-}
+    }
+    
 }
 
    /*menu principal*/
 @media screen and (max-width:800px){
     header .menu-principal{
-        width: 80%;
-        height: 60%;
+        width: 80%; 
         left: -100%;
         margin: 0;
         position: fixed;
         z-index: 2000;
+        width: 40%;
     }
     header .menu-principal .menu-lista li{
         display: block;
         float: none;
-        border-bottom: 1px solid rgba(255, 255, 255, 0.27)
+        border-bottom: 1px solid rgba(255, 255, 255, 0.27);
     }
     .menu_bar{
         display: block;
@@ -263,7 +276,25 @@ footer .direccion{
         font-size: 28px;
         color: white;
     }
+    footer img{
+        width: 150px;
+    }
+    .author{
+    padding: 0;
+    margin: 0;
+        }
+    .author img{
+        margin: 0;
+        margin-top: -20px;
+    }
+    .author .color{
+        width: 86%;
+    }
+    .author .color .texto p{
+        margin: 15px auto;
+    }
     
+
 }
 
 
