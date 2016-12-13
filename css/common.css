@@ -336,12 +336,17 @@ footer .direccion{
 }
 .fb{box-shadow: 0px 4px #3b5998;
     border-radius: 3px;}
-.fb a{color: #3b5998;}
+.fb .icon{color: #3b5998;}
 .tw{box-shadow: 0px 4px #33ccff;
     border-radius: 3px;}
-.tw a{color: #33ccff;}
+.tw .icon{color: #33ccff;}
 .gb{box-shadow: 0px 4px #dc4a38;
     border-radius: 3px;}
+<<<<<<< HEAD
 .gb a{color: #dc4a38;}
 /*-------------------------------------*/
 
+=======
+.gb .icon{color: #dc4a38;}
+/*-------------------------------------*/
+>>>>>>> noticias-principales
