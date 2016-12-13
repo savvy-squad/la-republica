@@ -197,7 +197,7 @@ footer .margen{
 .footer-2 p{
     font-size: 20px;
 }
-/*------RESPONSIVE--------*/
+/*------responsive--------*/
 @media screen and (max-width: 320px){
     .menu-iconos input{
         width: 25%;
@@ -217,7 +217,9 @@ footer .margen{
     .header-dos ul li {
     font-size: 8px;
    }
-    
+    .author img{
+        margin-top: 5px;
+    }
 }
 @media screen and (max-width: 360px){
     .menu-iconos input{
