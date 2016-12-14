@@ -1,4 +1,3 @@
-
 .autor-ctn{
     outline: 1px solid #dbd9d9;
     padding: 3%;
@@ -15,16 +14,19 @@
 .gris{
     color: #a38f8f;
 }
-
-/* Inserta tu código común entre todas las páginas acá */
-<<<<<<< HEAD
-*{
-    outline: 1px solid r;
-    font-family: neue helvetica;
+strong{
+    font-family: 'Oswald', sans-serif 
 }
-=======
+/* Inserta tu código común entre todas las páginas acá */
 
->>>>>>> noticias-secundarias
+*{
+    font-family: helvetica;
+}
+
+strong{
+    font-family: "Oswald"
+}
+
 /*--------SECTION HEADER--------*/
 .fondo-color{
     background-color: rgb(235, 235, 235);
@@ -35,12 +37,15 @@
     padding: 8px 0 0 0;
     box-sizing: border-box;
 }
-.header-dos ul li{
+.header-dos ul a{
     font-size: 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #a3a3a3;
 }
-.col-md-9, .col-md-7{
-    padding-left: 0;
-    padding-right: 0;
+.header-dos ul a
+.div1, .div2{
+    padding:5px;
 }
 header .top{
     width: 100%;
@@ -49,7 +54,7 @@ header button.boletin{
     border-radius: 5px;
     background-color: rgb(230, 128, 115);
     color: white;
-    border: 1px; 
+    border: none;
     width: 35%;
 }
 header button span{
@@ -73,16 +78,18 @@ header button span{
 header .redes{
     padding: 0 6px;
 }
+.menu-iconos{
+    position: relative;
+}
 header input{
-    position: absolute;
-    width: 30%;
+    width: 29%;
     background: rgb(235, 235, 235);
     border-top: none;
-    padding: 0 5px ;
 }
 .buscar{
-    position: relative;
-    left: 25%;
+    position: absolute;
+    right: 12px;
+    top: 5px;
 }
 
   /*-------------header la-republica-----*/
@@ -100,7 +107,7 @@ header input{
     text-align: center;
 }
 .domingo strong{
-    font-size: 13px;
+    font-size: 11px;
 }
 .domingo span{
     background-color: #a00101;
@@ -110,57 +117,28 @@ header input{
     bottom: 18px;
 }
 .author{
-    border: 2px solid rgb(235, 235, 235);
-    box-sizing: border-box;
-    line-height: 10px;
-    width: 100%;
-    height: 73px;
-    background: black;
-}
-.uno{
-    display: inline-block;
+    border-top: 2px solid rgb(235, 235, 235);
+    border-bottom: 2px solid rgb(235, 235, 235);
+    border-left: 2px solid rgb(235, 235, 235);
+    background-color: black;
     padding: 0;
-}
-.uno p{
-    padding: 5px 27px;
-    line-height: 18px;
-    position: relative;
-    height: 69px;
-    left: 15px;
-    background: white;
-    bottom: 1px;
-    border-bottom-left-radius: 8px;
-    border-top-left-radius: 8px;
+    margin: 0;
 }
 .author img{
-    position: relative;
-    left: 11px;
+    margin: 10px auto;
 }
-/*-----------------ICONOS-----------------*/
-.icon{
-    width: 20px;
-    background: #f2f2f2;
-    text-shadow: none;
-    text-align: center;
-    border-radius: 3px;
+.author .color{
+    background: white;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+    height: 70px;
 }
-.icon:hover{
-    color: black
+.author .color .texto p{
+    margin: 15px auto;
 }
-.fb{box-shadow: 0px 4px #3b5998;
-    border-radius: 3px;}
-.fb .icon{color: #3b5998;}
-.tw{box-shadow: 0px 4px #33ccff;
-    border-radius: 3px;}
-.tw .icon{color: #33ccff;}
-.gb{box-shadow: 0px 4px #dc4a38;
-    border-radius: 3px;}
-.gb .icon{color: #dc4a38;}
-/*-------------------------------------*/
-
-
-
-
+.author .dos{
+    display: inline-block;
+}
 
 /*----------menu-principal*/
 header .menu-principal{
@@ -168,7 +146,6 @@ header .menu-principal{
     max-width: 1000px;
     margin: 0 auto;
     background: rgb(212, 2, 2);
-    border-radius: 6px;
 }
 .menu_bar{
     display: none;
@@ -178,6 +155,7 @@ header .menu-principal .menu-lista{
     overflow: hidden;
     margin: 0;
 }
+
 header .menu-principal .menu-lista li{
     float: left;
     border-left: 1px solid darkgray;
@@ -199,7 +177,7 @@ header .menu-principal .menu-lista li:hover{
     margin: 20px 0;
 }
 .temas-dia{
-    background: black;
+    background: #000;
     color: white;
     font-size: 13px;
     border-top-left-radius: 9px;
@@ -208,13 +186,16 @@ header .menu-principal .menu-lista li:hover{
 }
 .menu2 .menu-temas{
     background-color: rgb(235, 235, 235);
-    padding-top: 8px;
+    padding-top: 10px;
+}
+.menu-temas ul{
+    margin-left:10px;
 }
 .menu-temas ul li a{
-    color: black;
+    color: #000;
     text-decoration: none;
     box-sizing: border-box;
-    padding: 0 10px; 
+    font-size: 13px;
 }
 
 /*-----------SECTION FOOTER---------*/
@@ -234,69 +215,66 @@ footer ul li a{
 footer .direccion{
     margin: 10% 0;
 }
-/*------RESPONSIVE--------*/
-@media screen and (max-width: 320px){
-    .menu-iconos input{
-        width: 25%;
-    }
-    .menu-iconos .buscar{
-        left: 20%;
-    }
-    header button.boletin {
-    width: 42%;
-    }
-    button.boletin span{
-        font-size: 9px;
-    }
-    header .redes{
-        padding: 0 3px;
-    }
-    .header-dos ul li {
-    font-size: 8px;
-   }
-    
+.border{
+    border-left: 2px solid rgb(191, 196, 199);
 }
+footer .margen{
+    margin: 20px 0;
+}
+  /*--------footer-2-----------*/
+.footer-2{
+    background: black;
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+.footer-2 p{
+    font-size: 20px;
+}
+/*------responsive--------*/
+@media screen and (max-width: 320px){
+    .header-dos .boletin span{font-size: 5px;}
+    .temas-dia{font-size: 12px;}
+    .header-dos .li-head a{font-size: 7px;}
+    .menu-iconos .boletin span{font-size: 9px;}
+    .header-dos .menu-iconos .formm{width: 10%;}
+}
+
 @media screen and (max-width: 360px){
-    .menu-iconos input{
-        width: 10%;
-    }
-    .menu-iconos .buscar{
-        left: 5%;
-    }
-    header button.boletin{
-    width: 40%;
-    }
-    .header-dos ul li{
-    font-size: 10px;
-    }
+    .header-dos .boletin span{font-size: 5px;}
+    .temas-dia{font-size: 12px;}
+    .header-dos ul a{font-size: 7px;}
+    .menu-iconos .boletin span{font-size: 9px;}
+    .header-dos .menu-iconos input .formm{width: 30%;}
 }
   /* menu header*/
 @media screen and (max-width:375px){
-    .menu-iconos input{
-        width: 20%;
-    }
-    .menu-iconos .buscar{
-        left: 18%;
-    }
-    header button.boletin{
-    width: 37.3%;
+    .temas-dia{font-size: 12px;}
+    .header-dos ul li a{font-size: 9px;}
+    .menu-iconos .boletin span{font-size: 9px;}
+    .header-dos .menu-iconos .formm{width: 40%;}
 }
+@media screen and (max-width:412px){
+    .header-dos .menu-iconos input{width: 42%;}
 }
-
+@media screen and (max-width:960px){
+    .header-dos ul li a{
+        font-size: 9px;}
+}
    /*menu principal*/
-@media screen and (max-width:800px){
+@media screen and (max-width:960px){
     header .menu-principal{
-        width: 80%;
-        height: 60%;
+        width: 80%; 
         left: -100%;
         margin: 0;
         position: fixed;
         z-index: 2000;
+        width: 40%;
     }
     header .menu-principal .menu-lista li{
         display: block;
         float: none;
-        border-bottom: 1px solid rgba(255, 255, 255, 0.27)
+        border-bottom: 1px solid rgba(255, 255, 255, 0.27);
     }
     .menu_bar{
         display: block;
@@ -312,25 +290,26 @@ footer .direccion{
         font-size: 28px;
         color: white;
     }
-    
+    footer img{
+        width: 150px;
+    }
+    .author{
+    padding: 0;margin: 0;}
+    .author img{
+        margin: 7px 0;}
+    .author .color{
+        width: 86%;}
+    .author .color .texto p{
+        margin: 15px auto;}
+    .menu-temas ul li a{font-size: 11px;}
+    .header-dos li a{font-size:10px;}
+    .menu-iconos .redes{font-size: 10px;padding: 2px;}
+    .menu-iconos input{font-size: 9px;width: 25%;}
+    .menu-iconos .buscar{right: 5px;top:5px;font-size: 10px}
+    header button.boletin{
+    font-size: 8px;}
+    .texto p{font-size: 11px;}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*-----------------ICONOS-----------------*/
 .icon{
     width: 20px;
@@ -350,11 +329,7 @@ footer .direccion{
 .tw .icon{color: #33ccff;}
 .gb{box-shadow: 0px 4px #dc4a38;
     border-radius: 3px;}
-<<<<<<< HEAD
-.gb a{color: #dc4a38;}
+.gb .icon{color: #dc4a38;}
+.punto{font-size: 7px;padding: 0 10px;}
 /*-------------------------------------*/
 
-=======
-.gb .icon{color: #dc4a38;}
-/*-------------------------------------*/
->>>>>>> noticias-principales
