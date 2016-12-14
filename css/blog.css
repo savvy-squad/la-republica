@@ -1,7 +1,13 @@
-<<<<<<< HEAD
+
 .autor-ctn a{
     display: block;
     color: black;
 }
-=======
->>>>>>> noticias-secundarias
+.blog h4{
+	font-family: 'Oswald', sans-serif;
+}
+.blog .row{
+	margin-bottom: 20px
+}
+
+
