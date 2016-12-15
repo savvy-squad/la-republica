@@ -1,4 +1,5 @@
 
+
 *{
     font-family: helvetica;
 }
@@ -35,6 +36,8 @@
     margin-bottom: 20px
 }
 
+
+
 /*--------------------COLUMNISTAS---------*/
 .fondo{
     background: #F2F2F2;
@@ -51,16 +54,63 @@
     margin-bottom: 30px;
 }
 .columnistas img{
-	border: 4px solid #fff;
+    border: 4px solid #fff;
 }
 .columnistas .separador h3{
-	width: 200px;
+    width: 200px;
     position: absolute;
-	background: #AA1801;
-	color: #fff;
+    background: #AA1801;
+    color: #fff;
     padding: 5px;
     top: -35px;
     margin-left:40%; 
+}
+.colum-text ul{
+  list-style: none;
+    padding: 0;
+}
+.colum-text ul li{
+    padding: 0;
+    display: inline-block;
+    vertical-align: top;
+    width: 115px;
+    padding-right: 3px;
+}
+.separador a{
+    font-family: "Oswald";
+}
+.columnistas a{
+    color: #fff;
+}
+.columnistas .texto{
+    color: #000;
+}
+.columnistas .negrita{
+    color: #000;
+    font-weight: bold;
+}
+@media screen and (max-width:760px){
+    .columnistas {margin:0 20px;}
+}
+@media screen and (max-width:460px){
+    .columnistas .separador h3{margin-left:25%}
+}
+@media screen and (max-width:360px){
+    .columnistas .separador h3{margin-left:15%}
+}
+
+/* ----------NOTICIAS SECUNDARIAS-------------------- */
+
+
+.sec-news .list-sec{
+    padding: 0;
+    margin: 0;
+   }
+.sec-ctn{
+    border: 1px solid #dedddd;
+    margin: 2% 0;
+    width: 100%;
+
 }
 .colum-text ul{
   list-style: none;
@@ -87,26 +137,14 @@
     font-weight: bold;
 }
 @media screen and (max-width:760px){
-    .columnistas {margin:0 10px;}
+    .columnistas {margin:0 20px;}
 }
 @media screen and (max-width:460px){
     .columnistas .separador h3{margin-left:25%}
 }
 @media screen and (max-width:360px){
     .columnistas .separador h3{margin-left:15%}
-}
 
-/* ----------NOTICIAS SECUNDARIAS-------------------- */
-
-
-.sec-news .list-sec{
-    padding: 0;
-    margin: 0;
-   }
-.sec-ctn{
-    border: 1px solid #dedddd;
-    margin: 2% 0;
-    width: 100%;
 }
 .sec-titulo a{
     color: #FFF;
@@ -115,6 +153,7 @@
     }
 .list-sec p{
     padding: 2% 0;
+
 
 }
 .sec-img{
@@ -301,9 +340,6 @@ width: 100%
     width: 60px;
     ;
 }
-
-
-
 
 
 
